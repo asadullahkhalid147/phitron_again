@@ -18,7 +18,8 @@ int main()
 
     // int *a = new int;
     // *a = 10;
-    // cout<<*a<<endl;
+    // cout<<"a er value"<<*a<<endl;
+    // cout<<"address of a:"<<a<<endl;
 
     // float *f = new float;
     // *f = 1.53;
