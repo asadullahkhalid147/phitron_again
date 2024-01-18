@@ -12,6 +12,7 @@ class Student
 int main()
 {
     Student a,b;
+    
     cin.getline(a.name,100);
     cin>>a.roll>>a.cgpa;
     getchar();

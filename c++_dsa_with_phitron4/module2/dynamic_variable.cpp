@@ -10,11 +10,23 @@ int * fun()
 
 }
 
+// int** wow() //13.03 minitue
+// {
+//     int *b=new int;
+//     cout<<"wow: "<<&b<<endl;
+//     *b=111;
+//     return &b;
+// }
+
 int main()
 {
     int *p = fun();
     cout<<"main: "<< p << endl;
     cout<<*p<<endl;
+
+    // int **q=wow();
+    // cout<<"main: "<<q<<endl;
+    // cout<<**q<<endl;
 
     // int *a = new int;
     // *a = 10;

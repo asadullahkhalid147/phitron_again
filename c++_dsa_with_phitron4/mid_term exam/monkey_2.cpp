@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    char s[10000];
+    char s[100000+5];
 
     while(cin.getline(s, sizeof(s)))
     {

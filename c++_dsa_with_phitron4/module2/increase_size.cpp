@@ -20,7 +20,7 @@ int main()
     a[5]=50;
     for(int i=0; i<3; i++)
     {
-        cout<<a[i];
+        // cout<<a[i];
         a[i]=b[i];
     }
     delete[]b;
