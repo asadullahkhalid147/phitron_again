@@ -53,6 +53,7 @@ void reverse(Node*head, Node*tail)
         j=j->prev;
         /* code */
     }
+    swap(i->val,j->val);
     
 }
 int main()
