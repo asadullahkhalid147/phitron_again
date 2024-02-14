@@ -8,10 +8,21 @@ int main()
    string s;
    getline(cin,s);
    stringstream ss(s);
+   // stringstream ss;
+   // ss<<s;
    string word;
    while(ss>>word)
    {
     cout<<word<<endl;
    }
+
+   int cnt=0;
+   while (ss>>word)
+   {
+      cnt++;
+      /* code */
+   }
+   cout<<cnt<<endl;
+   
 }
    
